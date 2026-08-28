@@ -2,8 +2,7 @@
 #position and hundred's digit position are the same, then print the result
 
 while True:
-    main_n = int(input())
-    n = main_n
+    n = int(input())
     if n >10000 or n<=1000:
         print("Enter 4 digit number")
         continue
