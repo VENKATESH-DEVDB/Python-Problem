@@ -3,7 +3,7 @@
 
 while True:
     n = int(input())
-    if n >10000 or n<999:
+    if n >10000 or n<=999:
         print("Enter 4 digit number")
         continue
     break

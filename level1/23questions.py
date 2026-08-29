@@ -6,7 +6,7 @@ odd = [3,5,7,9]
 while True:
     main_n = int(input())
     n = main_n
-    if n >100 or n<=10:
+    if n >100 or n<=99:
         print("Enter 2 digit number")
         continue
     break

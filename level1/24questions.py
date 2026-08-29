@@ -2,9 +2,8 @@
 #hundred's digit are the same, then print the result
 
 while True:
-    main_n = int(input())
-    n = main_n
-    if n >1000 or n<=100:
+    n = int(input())
+    if n >1000 or n<=99:
         print("Enter 3 digit number")
         continue
     break

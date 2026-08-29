@@ -3,7 +3,7 @@ two_sum = 0
 while True  :
     
     n = int(input())
-    if n > 100 or n <10:
+    if n > 100 or n <=9:
         print( " enter a 2 digite number")
         continue
     break 

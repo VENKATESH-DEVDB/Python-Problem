@@ -3,7 +3,7 @@ count = 0
 while True  :
     
     n = int(input())
-    if n > 1000 or n <100:
+    if n > 1000 or n <=99:
         print( " enter a 3 digite number")
         continue
     break 

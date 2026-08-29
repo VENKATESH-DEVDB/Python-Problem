@@ -5,7 +5,7 @@
 rev = 0 
 while True:
     n = int(input())
-    if n >10000 or n<1000:
+    if n >10000 or n<=999:
         print("Enter 4 digit number")
         continue
     first_two = n//100

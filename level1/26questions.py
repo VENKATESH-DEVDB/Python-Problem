@@ -3,7 +3,7 @@
 
 while True:
     n = int(input())
-    if n >100 or n<=10:
+    if n >100 or n<=9:
         print("Enter 2 digit number")
         continue
     break

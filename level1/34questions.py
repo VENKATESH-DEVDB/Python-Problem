@@ -4,13 +4,13 @@
 
 while True:
     n1 = int(input())
-    if n1 >1000 or n1 <99:
+    if n1 >1000 or n1 <=99:
         print("enter a 3 digit number")
         continue
     break
 while True:
     n2 = int(input())
-    if n2 >1000 or n2 <99:
+    if n2 >1000 or n2 <=99:
         print("enter a 3 digit number")
         continue
     break
