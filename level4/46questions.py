@@ -1,5 +1,5 @@
 #Question: Get a number string up to 50 digits and convert it into an integer array.
-import Numpy as np 
+import numpy as np 
 Max = 50 
 while True:
     n = input()
